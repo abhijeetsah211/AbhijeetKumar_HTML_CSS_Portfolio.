@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhijeet Kumar Sah | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- 1. Header / Navigation -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#home" class="logo">Abhijeet<span>.</span></a>
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-outline nav-cta">Get in Touch</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. Hero Section (Photo 1: abhi.jpg) -->
+    <section id="home" class="hero">
+      <div class="container hero-layout">
+        <div class="hero-text">
+          <span class="badge">Aspiring Frontend Developer</span>
+          <h1>Hi, I'm <span class="highlight">Abhijeet Kumar Sah</span></h1>
+          <p class="hero-desc">
+            B.Tech Computer Science student at Pimpri Chinchwad University, Pune. I build clean, structured, and responsive web experiences using semantic HTML5 and modern CSS3.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="avatar-box">
+            <!-- First Photo -->
+            <img src="abhi2.jpeg" alt="Abhijeet Kumar Sah" class="profile-photo">
+          </div>
+          <div class="floating-pill">
+            <i class="fa-solid fa-code"></i> HTML5 & CSS3
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. About Me Section (Photo 2: abhi2.jpg) -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>Background, education, and career interests</p>
+        </div>
+        <div class="about-grid">
+          <!-- Second Photo Card -->
+          <div class="about-image-card">
+            <img src="abhi.jpeg" alt="Abhijeet Kumar Sah in Pune" class="about-photo">
+          </div>
+
+          <div class="about-card">
+            <h3>Biography</h3>
+            <p>
+              I am an engineering undergraduate specializing in Artificial Intelligence and Data Science at <strong>Pimpri Chinchwad University, Pune</strong>. I am deeply passionate about frontend web development, semantic markup, and responsive UI design.
+            </p>
+            <p>
+              I focus on writing clean, accessible code and continuously improving my developer skills through practical project implementation.
+            </p>
+            <ul class="detail-list">
+              <li>
+                <strong>Degree:</strong>
+                <span>B.Tech in CSE (AI & DS)</span>
+              </li>
+              <li>
+                <strong>Expected Graduation:</strong>
+                <span>May 2027</span>
+              </li>
+              <li>
+                <strong>Location:</strong>
+                <span>Pune, Maharashtra, India</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Skills Section -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>Technical Skills</h2>
+          <p>Technologies and developer tools I work with</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <i class="fa-brands fa-html5"></i>
+            <h4>HTML5</h4>
+            <p>Semantic structure & accessibility</p>
+          </div>
+          <div class="skill-item">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h4>CSS3</h4>
+            <p>Flexbox, Grid & Animations</p>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h4>Responsive Design</h4>
+            <p>Mobile-first media queries</p>
+          </div>
+          <div class="skill-item">
+            <i class="fa-brands fa-java"></i>
+            <h4>Core Java</h4>
+            <p>Object-oriented programming</p>
+          </div>
+          <div class="skill-item">
+            <i class="fa-solid fa-database"></i>
+            <h4>SQL (Basics)</h4>
+            <p>Relational queries & tables</p>
+          </div>
+          <div class="skill-item">
+            <i class="fa-brands fa-github"></i>
+            <h4>Git & GitHub</h4>
+            <p>Version control & GitHub Pages</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Projects Section -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Projects</h2>
+          <p>Practical projects demonstrating technical skills</p>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1: AR Cafe -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-category">Web Development</span>
+              <div class="project-external-links">
+                <a href="https://github.com/abhijeetsah211/AR-cafe" target="_blank" title="GitHub Code"><i class="fa-brands fa-github"></i></a>
+                <a href="https://abhijeetsah211.github.io/AR-cafe/" target="_blank" title="Live Preview"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <h3>AR Cafe — Responsive Landing Page</h3>
+            <p>
+              A modern landing page designed for an artisan cafe. Built with a rich hero banner, brand story, product showcase grid, and a table booking section.
+            </p>
+            <div class="tech-stack">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Flexbox & Grid</span>
+              <span>GitHub Pages</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://abhijeetsah211.github.io/AR-cafe/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+              <a href="https://github.com/abhijeetsah211/AR-cafe" target="_blank" class="btn btn-secondary btn-sm">Repository</a>
+            </div>
+          </article>
+
+          <!-- Project 2: Student Management System -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-category">Console Application</span>
+              <div class="project-external-links">
+                <a href="https://github.com/abhijeetsah211" target="_blank" title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <h3>Student Management System</h3>
+            <p>
+              A structured console-based application concept designed to manage student records, course enrollments, and academic performance.
+            </p>
+            <div class="tech-stack">
+              <span>Core Java</span>
+              <span>OOP Concepts</span>
+              <span>Conditional Logic</span>
+              <span>Data Handling</span>
+            </div>
+            <div class="project-buttons">
+              <a href="https://github.com/abhijeetsah211" target="_blank" class="btn btn-secondary btn-sm">View GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Contact Section (Updated Phone Number) -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Information</h2>
+          <p>Feel free to reach out for opportunities or collaboration</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info-card">
+            <div class="contact-row">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <h4>Email Address</h4>
+                <a href="mailto:abhijeetsah211@gmail.com">abhijeetsah211@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+919689912695">+91 9689912695</a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <h4>GitHub Profile</h4>
+                <a href="https://github.com/abhijeetsah211" target="_blank">github.com/abhijeetsah211</a>
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div>
+                <h4>LinkedIn</h4>
+                <a href="https://linkedin.com" target="_blank">Connect on LinkedIn</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card">
+            <h3>Send a Message <span class="demo-tag">(Visual Demo)</span></h3>
+            <form onsubmit="return false;">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Abhijeet Kumar" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="abhi@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="3" placeholder="Write your message here..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message (Demo)</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Abhijeet Kumar Sah. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Back to top <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
